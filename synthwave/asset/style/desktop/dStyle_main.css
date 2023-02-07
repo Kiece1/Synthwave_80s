@@ -1,0 +1,31 @@
+.ImgCentral {
+  margin-top: 50.5rem;
+  width: var(--section-width);
+}
+
+.divImgCentral {
+  margin: 4rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: var(--section-width);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+section {
+  margin: 0 auto;
+  background-image: url(/asset/img/background.jpg);
+  width: 100vw;
+  object-fit: cover;
+  overflow: auto;
+  background: var(--quaternary-variation-color);
+  width: var(--section-width);
+}
+
+.mobileTextVisible {
+  display: none;
+  visibility: hidden;
+}

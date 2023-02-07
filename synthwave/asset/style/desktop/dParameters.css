@@ -1,0 +1,17 @@
+:root {
+  --button-font-size: 1.3rem;
+  --button-width: 18vw;
+  --card-width: 380px;
+  --border-radius: 7px;
+  --card-border-radius: var(--border-radius) var(--border-radius) 0 0;
+  --transparent-color: rgba(255, 255, 255, 0.659);
+  --primary-color: rgb(105, 1, 105);
+  --secondary-color: rgb(72, 0, 72);
+  --tertiary-color: rgb(214, 214, 254);
+  --tertiary-variation-color: rgb(151, 151, 249);
+  --quaternary-color: rgb(164, 70, 252);
+  --quaternary-variation-color: rgb(215, 149, 215);
+  --quinternary-color: rgb(61, 107, 245);
+  --section-width: 90vw;
+  --width-parameter: 40vw;
+}

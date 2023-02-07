@@ -1,0 +1,15 @@
+:root {
+  --button-font-size: 1.3rem;
+  --button-width: 30vw;
+  --card-width: 600px;
+  --border-radius: 7px;
+  --card-border-radius: var(--border-radius) var(--border-radius) 0 0;
+  --primary-color: rgb(105, 1, 105);
+  --secondary-color: rgb(72, 0, 72);
+  --tertiary-color: rgb(214, 214, 254);
+  --tertiary-variation-color: rgb(151, 151, 249);
+  --quaternary-color: rgb(164, 70, 252);
+  --quaternary-variation-color: rgb(215, 149, 215);
+  --section-width: 90vw;
+  --width-parameter: 20vw;
+}

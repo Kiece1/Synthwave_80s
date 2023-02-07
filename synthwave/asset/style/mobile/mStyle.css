@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Fredoka One", cursive !important;
+}
+
+body {
+  background-image: url(/asset/img/background.jpg);
+  overflow-x: hidden;
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  background: var(--tertiary-variation-color);
+  color: var(--quaternary-color);
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  margin: -1rem auto;
+  text-shadow: -2px -2px var(--primary-color);
+  transition: 200ms 300ms linear;
+  cursor: pointer;
+}
+
+.copyright {
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  padding: 1rem;
+}

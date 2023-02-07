@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto 5rem;
+  padding: 2rem 0;
+  width: var(--section-width);
+  color: var(--primary-color);
+  background: white;
+}
+
+footer div {
+  margin: 0 2rem 0 0;
+}
+
+footer img {
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+footer img:hover {
+  transform: scale(1.4) rotate3d(0.5, 1, 0.5, 20deg) translateY(-7px);
+}
+
+footer img:not(:hover) {
+  transition: 0.5s;
+}
+
+.imgLeft {
+  margin: 1.5rem 1.3rem;
+  object-fit: cover;
+  overflow: hidden;
+  float: left;
+}

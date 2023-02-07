@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header :is(cite, blockquote) {
+  margin: 0 auto;
+  width: 50vw;
+  text-align: justify;
+  white-space: wrap;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+header cite {
+  margin-bottom: 3rem;
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: var(--quaternary-color);
+}
+
+h1 {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 5rem;
+  text-shadow: -2px -2px var(--primary-color);
+  text-transform: uppercase;
+}
+
+#bgVideo {
+  display: none;
+  visibility: hidden;
+}
+
+#bgImg{
+  display:block;
+  visibility: visible;
+  width: 100vw;
+  height: 100vh;
+}
+
+.textSpe:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,66 @@
+button {
+  font-family: "Dosis", sans-serif;
+  cursor: pointer;
+}
+button div {
+  position: absolute;
+  transform: translate(-12px, -15px);
+}
+
+.btn1 {
+  padding: 1rem auto;
+  width: calc(0.6 * var(--button-width));
+  height: 7vh;
+  font-size: var(--button-font-size);
+  background: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+}
+
+.btn2 {
+  padding: 2rem auto;
+  font-size: var(--button-font-size);
+  width: var(--button-width);
+  background: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn1:hover,
+.btn2:hover {
+  background: var(--quaternary-color);
+  border: black;
+  color: white;
+  transform: translateY(-3px);
+  font-weight: 900;
+  font-size: calc(1.3 * var(--button-font-size));
+  border-radius: 50px;
+  margin: 0 1rem;
+  width: calc(1.1 * var(--button-width));
+  box-shadow: 5px 5px 5px var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.btn1:hover {
+  width: calc(1 * var(--button-width));
+  text-transform: uppercase;
+  padding: 0.4rem 2rem;
+}
+
+header .btn2{
+  padding: 1rem 1rem;
+  margin-top: 5rem;
+}
+
+header .btn2:hover {
+  width: calc(1.2 * var(--button-width));
+  text-transform: uppercase;
+  margin-top: 5rem;
+  padding: 1rem 1rem;
+}
+
+.btn1:active,
+.btn2:active {
+  background: var(--quinternary-color);
+}

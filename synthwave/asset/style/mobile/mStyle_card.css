@@ -1,0 +1,94 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  margin: 3rem auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--tertiary-color);
+  border-radius: var(--border-radius);
+  margin: 1rem auto;
+  padding: 0 1rem 1rem 1rem;
+  border-width: 6px;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.815);
+  border-radius: var(--border-radius);
+  transition: 500ms 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: var(--card-width);
+  height: auto;
+  transform: skewY(3deg);
+}
+
+h3 {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+p {
+  padding: 2rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  white-space: normal;
+  width: var(--card-width);
+  transition: 0.5s;
+  /* display: none; */
+}
+
+.divImg img {
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  border-radius: var(--card-border-radius);
+}
+
+.divImg {
+  width: var(--card-width);
+  height: 350px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: var(--card-border-radius);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  margin: 2rem 2rem;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.915);
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.card:not(:hover) {
+  transition: 0.5s;
+}
+
+.card:not(:hover) img {
+  transition: 0.5s;
+}
+
+.card:hover p {
+  padding: 0 1rem 0 1rem;
+  font-size: 1.1rem;
+  transform: translateY(-40px);
+  transition: 0.5s;
+  white-space: wrap;
+}
+
+.card:hover h3 {
+  transform: translateY(-50px);
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.card:hover img {
+  border-radius: var(--border-radius);
+  transform: translateY(-35px) scale(0.8);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

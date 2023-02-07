@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  padding: 1.5rem;
+  background: rgb(0, 106, 198);
+  width: 100%;
+  z-index: 2;
+}
+
+nav:hover {
+  background: white;
+}
+
+nav:hover li {
+  color: rgb(0, 106, 198);
+}
+
+nav li {
+  margin: 1rem 3rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+#logo {
+  width: 32px;
+  transform: translateY(5px);
+  clip-path: circle(50%);
+}
